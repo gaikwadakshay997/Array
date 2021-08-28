@@ -1,0 +1,34 @@
+WAP to calculate average marks of a 10 students.
+
+#include<stdio.h>
+#define size 10
+int main()
+{
+    int a[size],i,sum=0;
+    float avg;
+    printf("enter any %d number:",size);
+    for(i=0;i<size;i++)
+    {
+
+        scanf("%d",&a[i]);
+    }
+
+    for(i=0;i<size;i++)
+    {
+        sum =  sum+a[i];
+
+
+    }
+    avg = sum/size;
+
+    printf("avg of number is %.2f",avg);
+}
+
+
+ O/P - 
+enter any 10 number:1 2 3 4 5 6 7 8 9 10
+avg of number is 5.00
+
+
+
+
